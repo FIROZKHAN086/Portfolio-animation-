@@ -23,7 +23,7 @@ const Portfolio = () => {
           delay:0.89,
           scrollTrigger: {
             trigger: card,
-            start: "top 80%", // Adjust the start point as needed
+            start: "top 60%", // Adjust the start point as needed
             end: "top 70%", // Optional, defines the end point of the animation
            
           },
