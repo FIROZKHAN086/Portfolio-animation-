@@ -17,6 +17,7 @@ function Homepage() {
     }),
     gsap.to(homeref.current, {
       duration:3,
+      delay:1,
       opacity:1,
       translateX:-200,
       backgroundColor:'black',
@@ -42,7 +43,7 @@ function Homepage() {
       translateZ:500,
     }),
     gsap.to(buttonref.current, {
-      delay:3,
+      delay:4,
       opacity:1,
       translateX:0,
       translateY:0,
@@ -56,7 +57,7 @@ function Homepage() {
       }),
       gsap.to(deref.current, {
         opacity:1,
-        delay:4,
+        delay:5,
         duration:2,
         translateX:0,
         scale:1,
