@@ -32,7 +32,7 @@ function Homepage() {
     gsap.to(inref.current,{
       delay:3,
       opacity:1,
-      duration:2,
+      duration:3,
       translateY:0
 
     }),
@@ -57,8 +57,8 @@ function Homepage() {
       }),
       gsap.to(deref.current, {
         opacity:1,
-        delay:5,
-        duration:2,
+        delay:6,
+        duration:3,
         translateX:0,
         scale:1,
     })
